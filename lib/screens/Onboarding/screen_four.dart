@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:logi/constants/custom_colors.dart';
 import 'package:logi/screens/Onboarding/screen_two.dart';
+import 'package:logi/screens/authentication/register.dart';
 import 'package:logi/widgets/onboard_button.dart';
 
 class ScreenFour extends StatelessWidget {
@@ -56,18 +57,18 @@ class ScreenFour extends StatelessWidget {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (builder) => null),
+                          MaterialPageRoute(builder: (builder) => Register()),
                         );
                       },
                     ),
-                    SizedBox(height: 20,),
+                    SizedBox(height: 40,),
                      CustomButton(
                       BgColor: Color(0XFFFF851B),
-                      title: "Connect Wallet",
+                      title: "Connectd Wallet",
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (builder) => null),
+                          MaterialPageRoute(builder: (builder) => Register()),
                         );
                       },
                     ),

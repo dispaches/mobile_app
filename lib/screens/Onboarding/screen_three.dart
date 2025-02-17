@@ -80,16 +80,17 @@ class ScreenThree extends StatelessWidget {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (builder) => ScreenThree()),
+                          MaterialPageRoute(builder: (builder) => ScreenFour()),
                         );
                       },
                     ),
-                     CustomButton(
+                    SizedBox(height: 15),
+                    CustomButton(
                       title: "Connect Wallet",
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (builder) => ScreenThree()),
+                          MaterialPageRoute(builder: (builder) => ScreenFour()),
                         );
                       },
                     ),
@@ -101,6 +102,5 @@ class ScreenThree extends StatelessWidget {
         ),
       ),
     );
- 
   }
 }
